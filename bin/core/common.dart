@@ -3,7 +3,7 @@ import 'all_file.dart';
 
 void showMassage() {
   print(
-      '1. Go to Mobile phones, 2. Go to Laptops, 3. Go to main dashboard, 4. To Clear your cart, 5. Exit');
+      '1. Go to Mobile phones, 2. Go to Laptops, 3. Go to main dashboard, 4. Exit');
   int choice = int.parse(stdin.readLineSync()!);
   switch (choice) {
     case 1:
@@ -19,12 +19,6 @@ void showMassage() {
       mainDashboard();
       break;
     case 4:
-      Inventory inventory = Inventory();
-      inventory.displayDevices();
-      inventory.clearDevice();
-      print("Cart cleared successfully!");
-      exit(0);
-    case 5:
       print("Exiting...");
       exit(0);
     default:

@@ -1,52 +1,33 @@
 # Electronic Device Inventory System
 
-## Description
+### I have used a basic OOP for inventory system
 
-You will enhance a basic inventory system to include methods for comparing devices and managing device counts. You will also introduce an `Inventory` class to keep track of the devices.
+# Electronic Device Inventory System :desktop_computer:
+a simple store management system(my Store) :smiley:	
 
-## Instructions
+---
 
-### 1. Define the Base Class
+# It is imperative to verify that the <!--Links-->[Dart](https://dart.dev/)<!--Links--> language is installed on your machine before proceeding.
 
-Create a class named `ElectronicDevice` with the following properties:
-- `brand` (String)
-- `model` (String)
+## Features
+1. ###### Add Device to cart
+3. ###### Delete Device from cart
+4. ###### Display Display cart
+5. ###### Compared  Devices's Model
 
-Implement a constructor to initialize these properties. Include a method named `displayDetails()` that prints out the details of the device. Add a method named `compareModel(ElectronicDevice other)` that returns a boolean indicating whether the model of the current device is the same as the model of the `other` device.
+## how to use it
+* You **must** initially add an device to the cart, you must repeat this process every time you start. Why? Because we store in a list, not in a database, **so you must pay attention to that**.
 
-### 2. Define Derived Classes
 
-**Smartphone Class:**
+___
 
-Create a class named `Smartphone` that extends `ElectronicDevice`. Add an additional property: `batteryLife` (int, in hours). Implement a constructor to initialize the `brand`, `model`, and `batteryLife`. Override the `displayDetails()` method to include the `batteryLife` information.
+### Abu_Mukhlef store
 
-**Laptop Class:**
+![Image](1.png)
 
-Create a class named `Laptop` that extends `ElectronicDevice`. Add an additional property: `ramSize` (int, in GB). Implement a constructor to initialize the `brand`, `model`, and `ramSize`. Override the `displayDetails()` method to include the `ramSize` information.
-
-### 3. Define the Inventory Class
-
-Create a class named `Inventory` that manages a list of `ElectronicDevice` objects. Include methods to:
-- Add a device to the inventory.
-- Remove a device from the inventory by model.
-- Count the total number of devices in the inventory.
-- Display details of all devices in the inventory.
-
-### 4. Create Objects and Manage Inventory
-
-Create instances of `Smartphone` and `Laptop`. Use the `Inventory` class to add these devices to the inventory. Demonstrate removing a device, counting the total number of devices, and displaying details of all devices in the inventory. Use the `compareModel()` method to compare two devices and print out the result.
-
-## Submission
-
-- Submit the Dart code for the base class, derived classes, and the `Inventory` class.
-- Demonstrate the functionality by creating instances, managing the inventory, and using the comparison method.
-
-## Evaluation Criteria
-
-- Correct implementation of inheritance and method overriding.
-- Proper functionality of the `Inventory` class methods.
-- Accurate use of the `compareModel()` method.
-- Effective demonstration of managing the inventory and displaying device details.
-
-## Deadline 
-- Aug 5 2024, 9:59 AM
+---
+### choice devices numbers
+![Image](2.png)
+### out put will be like this
+![Image](3.png)
+---
